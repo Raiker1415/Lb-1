@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">   
+<head>
+    <title>LAB #1</title>
+    <meta charset="utf-8">
+    <!--<link type="image/x-icon" href="/images/favicon.ico" rel="shortcut icon">-->
+    
+    <style>
+        table, td{   
+          border: 1px solid #3c8f4b;
+          border-collapse: collapse;
+          background-color: #59d06f;
+        }
+        td {
+            min-width:50px;
+            text-align: center;
+        }
+    </style> 
+</head>  
+<body>
+    <header>
+        <h2><strong>Лабораторна робота №1</strong></h2>
+        <em>КІУКІ-20-3 Даценко Антон</em>
+    </header>   
+    <br><h3>Task 1</h3>
+    <p>Общее количество перестановок из <em>n</em> элементов равно <b>произведению всех целых чисел</b> от <em>1</em> до <em>n</em>: P<sub>n</sub> = 1⋅2⋅3⋅...⋅(n-2)⋅(n-1)⋅n.</p>
+    <h3>Task 2</h3>
+<details>
+    <summary>Список дисциплин 3-го курса</summary>
+    <dl>
+        <dt><b>Профильные специальности:</b></dt>
+            <dd>Интернет технологии;</dd>
+            <dd>Системное ПО;</dd>
+            <dd>Архитектура компьютеров;</dd>
+            <dd>Компьютерная схемотехника;</dd>    
+            <dd>Программы визуализации и вычисления информации;</dd>
+            <dd>Моделирование систем;</dd>            
+        <dt><b>Общеобразовательные специальности:</b></dt>
+            <dd>Социальная конфликтология и психология</dd>
+            <dd>Физические занятия.</dd>
+    </dl>
+</details>
+
+    <h3>Task 3</h3>
+
+<table>
+    <tr>
+        <td rowspan="2" style="font-size: 30px">Na</td>
+        <th>11</th>
+            <td rowspan="2" style="font-size: 30px">Mg</td>
+            <th>12</th>           
+    </tr>
+    <tr>
+        <td>22.99</td>
+        <td>24.305</td>
+    </tr> 
+
+    <tr>
+        <td rowspan="2" style="font-size: 30px">K</td>
+        <th>19</th>   
+            <td rowspan="2" style="font-size: 30px">Ca</td>    
+            <th>20</th>        
+    </tr>
+    <tr>
+        <td>39.098</td>
+        <td>40.08</td>
+    </tr>
+
+    <tr>
+        <th>29</th> 
+        <td rowspan="2" style="font-size: 30px">Cu</td>        
+            <th>30</th> 
+            <td rowspan="2" style="font-size: 30px">Zn</td>                     
+    </tr>
+    <tr>
+        <td>63.546</td>
+        <td>65.39</td>
+    </tr>
+
+  </table>
+
+    <h3>Task 4</h3>
+    <form method="get">
+    <div style ="line-height: 1.5;"><dl>
+        <dt><b>Тип устройства</b></dt>
+            <dd><input type="radio" id="laptop" value="laptop" name="answ"><label for="laptop">Ноутбук</label>        
+            <dd><input type="radio" id="computer" value="computer" name="answ"><label for="computer">Компьютер</label></dd>
+        <dt><b>Название CPU</b></dt>
+            <dd><input type="text" placeholder="Ryzen 5 3600"></dd>
+        <dt><b>Название GPU</b></dt>
+            <dd><input type="text" placeholder="Nvidia RTX 2060"></dd>
+            <dd><sub><input type="checkbox" name="login">Интегрирован</sub></dd>
+        <dt><b>Объём ОЗУ</b></dt>
+            <dd><input  type="text" name="num"></dd>          
+    </dl></div>
+        <input type="submit" value="Отправить данные">
+    </form>
+    <h3>Task 5</h3>
+    <img src="Untitled.png" alt="picture supposed to be here..."  usemap="#mapid">
+    <map name="mapid">
+    <area href="https://nure.ua/en/" alt="Click 1" target="_blank" shape="rect" coords="0,0,180,230"> 
+    <area href="https://dec.nure.ua" alt="Click 2" target="_blank" shape="rect" coords=" 190,0,1000,115">
+    <area href="https://cist.nure.ua/" alt="Click 3" target="_blank" shape="rect" coords="190,115,1000,230">
+    </map>
+</body>
+</html>
